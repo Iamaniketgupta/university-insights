@@ -7,7 +7,7 @@ await connectDB();
 
 
 app.use('/', (req, res) => {
-  res.send('gappe Server is online')
+  res.send('Server is online')
 });
 
 
