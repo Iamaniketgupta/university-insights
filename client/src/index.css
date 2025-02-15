@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.gradient-bg {
+  background: linear-gradient(135deg, #6366F1 0%, #4F46E5 100%);
+}
+
+.hero-gradient {
+  background: linear-gradient(to bottom, #0F172A 0%, #1E293B 100%);
+}
+
+.glass-card {
+  backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(30, 41, 59, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.feature-card {
+  background: rgba(30, 41, 59, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+}
+
+.scholarship-card {
+  background: linear-gradient(135deg, #1E293B 0%, #0F172A 100%);
+}
