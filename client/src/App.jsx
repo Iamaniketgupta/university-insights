@@ -39,7 +39,7 @@ function App() {
       console.log(error);
     }
   };
-  console.log(user)
+  // console.log(user)
 
   useEffect(() => {
     fetchUserData();
